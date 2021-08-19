@@ -10,6 +10,7 @@ import (
 
 	"github.com/mattermost/mattermost-server/v6/model"
 )
+//comment
 
 // GenerateClientConfig renders the given configuration for a client.
 func GenerateClientConfig(c *model.Config, telemetryID string, license *model.License) map[string]string {
